@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perú</title>
+    <link rel="shortcut icon" href="./assets/svg/peru-bandera.svg" type="image/x-icon">
+
+
+    <link rel="stylesheet" href="./css/index.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+</head>
+
+<body class="body">
+    <header class="header animate__animated animate__fadeIn">
+        <nav class="nav">
+            <div class="container elements elements--header-nav">
+                <a href="#map">
+                    <img src="./assets/svg/peru.svg" alt="Perú" width="48px" height="48px" class="nav__logo"/>
+                </a>
+                <button class="nav__icon nav__icon--menu" id="navIconMenu">
+                    <i class="bi bi-list"></i>
+                </button>
+                <ul class="menu menu--header">
+                    <li>
+                        <a href="#costa" class="menu__link">Costa</a>
+                    </li>
+                    <li>
+                        <a href="#sierra" class="menu__link">Sierra</a>
+                    </li>
+                    <li>
+                        <a href="#selva" class="menu__link">Selva</a>
+                    </li>
+                    <li class="nav__icon nav__icon--close" id="navIconClose">
+                        <i class="bi bi-x-circle"></i>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <article class="section section--map" id="map">
+            <div class="container elements elements--map">
+                <div class="map-img animate__animated animate__fadeInRight">
+                    <img src="./assets/svg/peru.svg" alt="Perú" width="256" height="256" class="map-img__img">
+                    <figure class="map-img__decorators">
+                        <img src="./assets/img/manos.jpg" alt="logo html" width="64" height="64" class="map-img__decorator">
+                        <img src="./assets/img/machupicchu.jpg" alt="logo html" width="64" height="64" class="map-img__decorator">
+                        <img src="./assets/img/nazca.jpg" alt="logo html" width="64" height="64" class="map-img__decorator">
+                        <img src="./assets/img/sacsayhuaman.jpg" alt="logo html" width="64" height="64" class="map-img__decorator">
+                        <img src="./assets/img/kuelap.jpg" alt="logo html" width="64" height="64" class="map-img__decorator">
+                        <img src="./assets/img/chanchan.jpg" alt="logo html" width="64" height="64" class="map-img__decorator">
+                    </figure>
+                </div>
+                <div class="card animate__animated animate__fadeInLeft">
+                    <div class="card__header">
+                        <h1 class="card__title">Perú</h1>
+                    </div>
+                    <div class="card__body">
+                        <h2 class="card__subtitle">País Milenario</h2>
+                        <p class="card__text">Descubra los maravillosos destinos que esconden magia y cultura. Esperan por su pronta visita.</p>
+                    </div>
+
+                    <div class="card__footer">
+                        <div class="buttons">
+                            <a href="" class="nav__logo"><img src="./assets/svg/facebook.svg" alt="Facebook"></a>
+                            <a href="" class="nav__logo"><img src="./assets/svg/twitter.svg" alt="Twitter"></a>
+                            <a href="" class="nav__logo"><img src="./assets/svg/instagram.svg" alt="Instagram"></a>
+                            <a href="" class="nav__logo"><img src="./assets/svg/youtube.svg" alt="Youtube"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <section class="section section--regions" id="costa">
+            <div class="container elements">
+                <h2 class="section__title">Costa</h2>
+                <div class="swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Huanchaco.jpg/800px-Huanchaco.jpg" alt="Huanchaco" width="100%" height="100%" class="swiper__img">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://www.zonacaral.gob.pe/wp-content/uploads/2014/10/caral-ciudades.jpg" alt="Caral" width="100%" height="100%" class="swiper__img">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://www.wamanadventures.com/blog/wp-content/uploads/2020/06/mapa-2-nazca.gif" alt="Nazca" width="100%" height="100%" class="swiper__img">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://www.southamericaexploor.com/wp-content/uploads/2022/03/Chan-Chan-Trujillo.jpg" alt="ChanChan" width="100%" height="100%" class="swiper__img">
+                    </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+        </section>
+        <section class="section section--regions" id="sierra">
+            <div class="container elements">
+                <h2 class="section__title">Sierra</h2>
+                <div class="swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="https://portal.andina.pe/EDPfotografia/Thumbnail/2014/10/01/000263996W.jpg" alt="Saywite" width="100%" height="100%" class="swiper__img">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://www.peruforless.com/blog/wp-content/uploads/2014/08/sacsayhuaman.jpg" alt="Sacsayhuaman" width="100%" height="100%" class="swiper__img">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://live.staticflickr.com/5299/5547201895_0cef859e71_b.jpg" alt="Rupac" width="100%" height="100%" class="swiper__img">
+                    </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+        </section>
+        <section class="section section--regions" id="selva">
+            <div class="container elements">
+                <h2 class="section__title">Selva</h2>
+                <div class="swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="https://denomades.s3.us-west-2.amazonaws.com/blog/wp-content/uploads/2017/11/02171322/kuelapOK.jpg" alt="Kuelap" width="100%" height="100%" class="swiper__img">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://www.peru.travel/Contenido/Atractivo/Imagen/pe/145/1.4/Principal/Machu%20Picchu.jpg" alt="Machu Picchu" width="100%" height="100%" class="swiper__img">
+                    </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+        </section>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/index.js" type="module"></script>
+
+</body>
+</html>
