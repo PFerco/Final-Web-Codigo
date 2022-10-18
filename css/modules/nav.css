@@ -1,5 +1,5 @@
 .nav {
-    --translate-x-menu: 500%;
+    --translate-x-menu: 400%;
     --padding-nav: 1rem;
     padding-top: var(--padding-nav);
     padding-bottom: var(--padding-nav);
@@ -11,7 +11,7 @@
 }    
 
 .nav--open{
-    --translate-x-menu: 400%;
+    --translate-x-menu: 300%;
 }
 
 .nav__logo {
