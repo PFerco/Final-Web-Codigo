@@ -40,7 +40,7 @@
 
 .nav__icon--close{
     position: absolute;
-    top: calc(0.5rem + var(--padding-nav));
+    top: calc(var(--padding-nav));
     right: 1rem;
     transition: top 0.25s;
     scale: 0.6;
